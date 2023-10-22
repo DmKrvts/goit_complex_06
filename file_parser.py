@@ -84,12 +84,7 @@ def scan(folder: Path):
 if __name__ == '__main__':
     folder_process = sys.argv[1]
     scan(Path(folder_process))
-    print(f'Images jpeg: {JPEG_IMAGES}')
-    print(f'Images jpg: {JPG_IMAGES}')
-    print(f'Images png: {PNG_IMAGES}')
-    print(f'AUDIO mp3: {MP3_AUDIO}')
-    print(f'Archives zip: {ZIP_ARCHIVES}')
-
+    
     print(f'EXTENSIONS: {EXTENSIONS}')
     print(f'UNKNOWN: {UNKNOWN}')
 
